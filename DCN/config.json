@@ -1,0 +1,10 @@
+{"if_load": false,
+  "lr": 1e-05,
+  "inshape": [128, 128, 128],
+  "input_channels": 2,
+  "epoch": 300,
+  "batch_size": 16,
+  "train_iteration": 50,
+  "test_iteration": 50,
+  "save_epoch": 20,
+  "save_path": "./save"}
