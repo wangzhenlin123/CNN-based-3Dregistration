@@ -37,5 +37,8 @@ you can interpolate/downsample your image to [128, 128, 128].
 ### 2. Write your own data provider.
 Write data provider, then edit main.train() to use your data provider. The output shape of the data provider should be ((N,C,D,H,W),(N,C,D,H,W))
 
-### 3. Run train.py
+### 3. Choose loss function.
+If you did proper preprocessing, MSE is enough to do this task. You can also try some multi modal loss functions, such as NCC and MI.
+
+### 4. Run train.py
 Run train.py and wait for training.
